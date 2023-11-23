@@ -1,0 +1,188 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "username": "jarehbein",
+      "email": "jarehbein@duocuc.cl",
+      "password": "yasu1",
+      "carrera": "Ingeniera en Informatica"
+    },
+    {
+      "username": "Joaquin",
+      "email": "joa@duocuc.cl",
+      "password": "aaaaa",
+      "carrera": "Ingeniera en Informatica",
+      "id": 2
+    }
+  ],
+  "asistencia": [
+    {
+      "id": "ASY4131",
+      "materia": "Arquitectura",
+      "clases": [
+        {
+          "id": 1,
+          "fecha": "2023-09-01",
+          "presente": true
+        },
+        {
+          "idClase": 2,
+          "fecha": "2023-09-02",
+          "presente": true
+        },
+        {
+          "idClase": 3,
+          "fecha": "2023-09-03",
+          "presente": true
+        },
+        {
+          "idClase": 4,
+          "fecha": "2023-09-04",
+          "presente": true
+        },
+        {
+          "idClase": 5,
+          "fecha": "2023-09-05",
+          "presente": true
+        },
+        {
+          "idclase": 6,
+          "fecha": "2023-09-05",
+          "presente": false
+        }
+      ],
+      "profesor": "María",
+      "correo": "maria.rodri@profesorduocuc.cl"
+    },
+    {
+      "id": "INI5111",
+      "materia": "Ingles Intermedio",
+      "clases": [
+        {
+          "fecha": "2023-09-01",
+          "presente": true
+        },
+        {
+          "fecha": "2023-09-02",
+          "presente": true
+        },
+        {
+          "fecha": "2023-09-03",
+          "presente": true
+        },
+        {
+          "fecha": "2023-09-04",
+          "presente": true
+        },
+        {
+          "fecha": "2023-09-05",
+          "presente": false
+        },
+        {
+          "fecha": "2023-09-05",
+          "presente": false
+        }
+      ],
+      "profesor": "Juan",
+      "correo": "juan.per@profesorduocuc.cl"
+    },
+    {
+      "id": "CSY4111",
+      "materia": "Calidad de Software",
+      "clases": [
+        {
+          "fecha": "2023-09-01",
+          "presente": true
+        },
+        {
+          "fecha": "2023-09-02",
+          "presente": false
+        },
+        {
+          "fecha": "2023-09-03",
+          "presente": false
+        },
+        {
+          "fecha": "2023-09-04",
+          "presente": true
+        },
+        {
+          "fecha": "2023-09-05",
+          "presente": true
+        }
+      ],
+      "profesor": "Laura",
+      "correo": "laura.go@profesorduocuc.cl"
+    },
+    {
+      "id": "EAY4450",
+      "materia": "Etica Para El Trabajo",
+      "clases": [
+        {
+          "fecha": "2023-09-01",
+          "presente": true
+        },
+        {
+          "fecha": "2023-09-02",
+          "presente": false
+        },
+        {
+          "fecha": "2023-09-03",
+          "presente": true
+        },
+        {
+          "fecha": "2023-09-04",
+          "presente": false
+        },
+        {
+          "fecha": "2023-09-05",
+          "presente": true
+        },
+        {
+          "fecha": "2023-09-04",
+          "presente": false
+        },
+        {
+          "fecha": "2023-09-05",
+          "presente": true
+        }
+      ],
+      "profesor": "Brandon",
+      "correo": "brandon.mar@profesorduocuc.cl"
+    }
+  ],
+  "profesor": [
+    {
+      "id": 1,
+      "username": "María",
+      "email": "maria.rodri@profesorduocuc.cl",
+      "password": "yasu1",
+      "carrera": "Arquitectura",
+      "siglas": "ASY4131"
+    },
+    {
+      "id": 2,
+      "username": "Juan",
+      "email": "juan.per@profesorduocuc.cl",
+      "password": "yasu1",
+      "carrera": "Ingles Intermedio",
+      "siglas": "INI5111"
+    },
+    {
+      "id": 3,
+      "username": "Laura",
+      "email": "laura.go@profesorduocuc.cl",
+      "password": "yasu1",
+      "carrera": "Calidad de Software",
+      "siglas": "CSY4111"
+    },
+    {
+      "id": 4,
+      "username": "Brandon",
+      "email": "brandon.mar@profesorduocuc.cl",
+      "password": "yasu1",
+      "carrera": "Etica Para El Trabajo",
+      "siglas": "EAY4450"
+    }
+  ]
+}
